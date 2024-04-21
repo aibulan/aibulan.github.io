@@ -1,0 +1,55 @@
+/* 设置背景颜色或背景图片 */
+body {
+    background-color: #f8f8f8; /* 可以替换为您喜欢的颜色或背景图片 url */
+}
+
+/* 图片浮动和外边距 */
+.profile-image {
+    float: right;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 列表设置 */
+#education ul,
+#skills-and-experiences ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 浮动列表 */
+#education ul li,
+#skills-and-experiences ul li {
+    float: left;
+    width: 50%;
+}
+
+/* 视频样式 */
+.video-content {
+    display: block;
+    margin: 20px auto;
+}
+
+/* 页面布局和重点突出 */
+.resume header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* 标题设置规范 */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* 确保主要内容区域清晰有序 */
+main {
+    overflow: auto; /* 清除浮动 */
+}
+
+/* 其他可能需要的样式规则 */
+/* 根据实际页面需求添加 */
